@@ -16,7 +16,6 @@
     "devDependencies": {
         "@babel/core": "^7.20.0",
         "@babel/preset-env": "^7.20.0",
-        "metro-react-native-babel-preset": "0.73.10",
-        "@react-native/gradle-plugin": "^0.71.17"
+        "metro-react-native-babel-preset": "0.73.10"
     }
 }
