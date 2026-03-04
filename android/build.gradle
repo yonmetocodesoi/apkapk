@@ -9,6 +9,8 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven { url "../node_modules/react-native/android" }
+        maven { url "../node_modules/@react-native/gradle-plugin/android" }
     }
     dependencies {
         classpath("com.android.tools.build:gradle:7.4.2")
@@ -20,5 +22,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        maven { url "../node_modules/react-native/android" }
+        maven { url "../node_modules/@react-native/gradle-plugin/android" }
     }
 }
